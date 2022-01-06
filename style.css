@@ -35,7 +35,8 @@ h2{
     font-size: 22px;
     padding-top: 15px;
 }
-.stay-focus-text a{
+.stay-focus-text a,
+.develop-text a{
     text-decoration: none;
     font-size: 20px;
     padding: 8px 20px;
@@ -110,8 +111,33 @@ h2{
 /*
 DEVELOP SECTION START
 */
-.develope{
+.develop{
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.develop-img{
+    width: 30%;
+}
+.develop-text{
+    width: 60%;
+    padding-left: 7%;
+    padding-top: 50px;
+    
+}
+.develop-img img{
+    max-width: 100%;
+}
+.develop-text h3{
+    font-size: 40px;
+}
+.develop-text p{
+    font-size: 20px;
+    padding: 25px 0px;
 }
 
 
