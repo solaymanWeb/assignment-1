@@ -183,4 +183,52 @@ COMMUNITY SECTION START
     margin-block-start: ;
     
 }
+.services .web-design{
+    background-color: paleturquoise;
+}
+.services h3{
+font-size: 30px;
+padding: 40px 0;
+}
+.services .web-development{
+    background-color: rgb(204, 228, 223);
+    margin: 0px 30px;
+    padding: 30px 0px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 10;
+
+}
+.services .SEO,
+.services .web-design{
+    background-color: rgb(204, 228, 223);
+    padding: 30px 0px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 10;
+}
+.margin-L h3,
+.margin-L i,
+.margin-L p{
+    margin-left: 20px;
+}
+.margin-L i{
+    font-size: 52px;
+    color: orangered;
+    text-align: center;
+}
+
+/* 
+FOOTER
+*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+footer h2{
+    font-size: 40px;
+}
+
 
