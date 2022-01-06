@@ -36,7 +36,8 @@ h2{
     padding-top: 15px;
 }
 .stay-focus-text a,
-.develop-text a{
+.develop-text a,
+.community a{
     text-decoration: none;
     font-size: 20px;
     padding: 8px 20px;
@@ -68,7 +69,9 @@ h2{
 .my-mission h2{
     text-align: center;
 }
-.my-mission span{
+.my-mission span,
+.community span,
+.develop-text span{
     color: orangered;
 }
 .card {
@@ -136,6 +139,30 @@ DEVELOP SECTION START
     font-size: 40px;
 }
 .develop-text p{
+    font-size: 20px;
+    padding: 25px 0px;
+}
+/*
+COMMUNITY SECTION START
+*/
+
+.community{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.community-text{
+    width: 60%;
+    padding-right: 7%;
+    padding-top: 50px;
+    
+}
+.community-text h3{
+    font-size: 40px;
+}
+.community-text p{
     font-size: 20px;
     padding: 25px 0px;
 }
