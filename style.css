@@ -71,7 +71,8 @@ h2{
 }
 .my-mission span,
 .community span,
-.develop-text span{
+.develop-text span,
+.services span{
     color: orangered;
 }
 .card {
@@ -166,5 +167,20 @@ COMMUNITY SECTION START
     font-size: 20px;
     padding: 25px 0px;
 }
+/*SERVICES SECTION*/
 
+
+.services{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.services h2{
+    text-align: center;
+}
+.my-services{
+    display: flex;
+    margin: 50px 0px;
+    margin-block-start: ;
+    
+}
 
